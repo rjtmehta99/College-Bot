@@ -18,7 +18,7 @@ agent = Agent.load('./models/', interpreter = nlu_interpreter, action_endpoint =
 
 input_channel = SlackInput(
     # this is the `bot_user_o_auth_access_token`
-    slack_token="xoxb-752884065298-767526853095-7gB6X1E22ZRUjRhzPsFZ6anm",
+    slack_token="",
     slack_channel="@jasper_muj_bot"
     # the name of your channel to which the bot posts (optional)
     )
